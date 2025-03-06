@@ -1,0 +1,23 @@
+POST http://127.0.0.1:2113/users
+Content-Type: application/json
+
+
+{
+    "LoginName": "adminuser",
+    "FullName": "EventStore Admin",
+    "Groups": [
+        "$admins",
+        "DataScience"
+    ],
+    "Password": "aVerySecurePassword"
+}
+
+
+
+
+###
+# FAILED eventstore 23.10 I get a 404, I may need a secure cluster
+# FAILED returns 404, Event Store 24.10.0.1384
+# PASSED on secure cluster Event Store 24.10.0.1384
+# see examples_with_authorization folder
+####

@@ -1,0 +1,14 @@
+GET http://127.0.0.1:2113/health/live?liveCode=200
+
+
+
+
+
+
+###
+# New Feature as of version 24.6
+# TEST Event Store 24.10.0.1384 PASSED
+# /health/live returns 204 for working server
+# /health/live"livecode=200 returns 200
+####
+

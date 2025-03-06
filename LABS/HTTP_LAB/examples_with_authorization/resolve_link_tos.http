@@ -1,0 +1,14 @@
+GET http://127.0.0.1:2113/streams/shoppingCart-b989fe21-9469-4017-8d71-9820b8dd1167/0
+Accept:application/vnd.eventstore.atom+json
+ES-ResolveLinkTos:true
+
+
+
+
+
+
+###
+# Test 11/12/24
+# Failed it requires a stream with linktos
+# A projection will provide this
+####

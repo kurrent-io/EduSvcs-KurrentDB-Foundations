@@ -1,0 +1,20 @@
+POST https://127.0.0.1:2113/users
+Content-Type: application/json
+Authorization: Basic admin:changeit
+
+
+
+{
+    "LoginName": "audit",
+    "FullName": "EventStore Audito",
+    "Groups": [
+        "$admins",
+        "DataScience"
+    ],
+    "Password": "Password"
+}
+
+
+
+
+

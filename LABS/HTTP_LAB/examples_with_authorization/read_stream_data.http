@@ -1,0 +1,14 @@
+GET https://127.0.0.1:2113/streams/newstream?embed=body
+Accept:application/vnd.eventstore.atom+json
+Authorization: Basic admin:changeit
+
+
+
+
+
+
+###
+# 11/12/24 Works
+# PASSED Event Store 24.10.0.1384
+# Debug steps, verify stream exists, 01_ESDB_event_post.http will add an event to this stream
+####

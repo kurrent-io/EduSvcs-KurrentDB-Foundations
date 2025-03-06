@@ -1,0 +1,12 @@
+GET https://localhost:2113/users/admin
+Authorization: Basic admin:changeit
+
+
+
+#######
+# Test version 24.10.0.1384 Passed
+# /users/ = all users
+# /users/username = specific user data
+#
+#
+#######

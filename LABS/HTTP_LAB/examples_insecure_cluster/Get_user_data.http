@@ -1,0 +1,10 @@
+GET http://localhost:2113/users/admin
+
+
+
+
+#######
+# FAILED Event Store 24.10.0.1384
+# The secured cluster version of this request works
+# See the examples with authorization folder
+#######

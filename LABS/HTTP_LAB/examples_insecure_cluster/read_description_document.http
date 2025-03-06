@@ -1,0 +1,11 @@
+GET http://localhost:2113/streams/newstream 
+Accept application/vnd.eventstore.streamdesc+json
+
+
+
+
+######
+# PASSED Event Store 24.10.0.1384 
+# Returns description document of accepted http requests
+#
+######

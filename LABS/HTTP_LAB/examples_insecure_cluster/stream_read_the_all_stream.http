@@ -1,0 +1,12 @@
+GET http://127.0.0.1:2113/streams/%24all
+Accept:application/vnd.eventstore.atom+json
+
+
+
+
+
+####
+# tests, 
+# PASSED Eventstore 23.10 
+# PASSED Event Store 24.10.0.1384 
+####

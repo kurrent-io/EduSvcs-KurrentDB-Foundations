@@ -1,0 +1,16 @@
+POST https://localhost:2113/streams/secure_stream
+Content-Type: application/vnd.eventstore.events+json
+Authorization: Basic audit:Password
+
+
+[
+  {
+    "eventId": "fbf4a1a3-b4a3-4dfe-a01f-ec53c34e19e9",
+    "eventType": "event-type",
+    "data": {
+      "a": "1"
+    }
+  }
+]
+
+

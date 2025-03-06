@@ -1,0 +1,11 @@
+POST http://localhost:2113/admin/scavenge 
+
+GET http://127.0.0.1:2113/admin/scavenge/current
+
+
+######
+# Passed Event Store 24.10.0.1384
+# https://developers.eventstore.com/server/v24.10/operations/scavenge.html#getting-the-current-scavenge-id
+# Use DELETE in place of get to stop a scavenge process
+#
+#######

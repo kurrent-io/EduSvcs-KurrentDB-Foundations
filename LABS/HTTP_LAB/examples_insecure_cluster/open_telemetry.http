@@ -1,0 +1,13 @@
+GET http://localhost:4317
+Authorization: Basic admin:changeit
+
+
+
+
+
+
+###
+# 23.10 returns auth error, not listening on :4317
+# FAILED Event Store 24.10.0.1384 
+# Notes, docker container would need port 4317 forwarded
+####

@@ -1,0 +1,13 @@
+POST https://127.0.0.1:2113/projection/$by_category/command/enable
+Accept: application/json
+Content-Length:0 
+Authorization: Basic admin:changeit
+
+
+
+
+###
+# Test EventStore 24.10.0.1384 passed
+# returns 200 even if enabled
+# to disable  use projection/$by_category/command/disable
+####

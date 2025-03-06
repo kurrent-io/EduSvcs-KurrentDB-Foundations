@@ -1,0 +1,12 @@
+PUT http://127.0.0.1:2113/subscriptions/newstream/subscriber_name
+Content-Type: application/json
+
+
+
+
+
+#####
+# PASSED Event Store 24.10.0.1384
+#
+#
+#####

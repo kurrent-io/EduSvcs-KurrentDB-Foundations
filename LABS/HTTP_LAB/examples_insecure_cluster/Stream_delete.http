@@ -1,0 +1,10 @@
+DELETE http://127.0.0.1:2113/streams/newstream
+
+
+
+
+#####
+# PASSED Event Store 24.10.0.1384
+#
+#
+#####
