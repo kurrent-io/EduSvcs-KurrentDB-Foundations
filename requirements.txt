@@ -1,4 +1,5 @@
-esdbclient==1.1.2
+esdbclient==1.1.4
 grpcio==1.62.1
 protobuf==5.26.1
 typing_extensions==4.10.0
+faker
