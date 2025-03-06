@@ -1,0 +1,12 @@
+GET https://127.0.0.1:2113/streams/newstream/0
+Accept:application/vnd.eventstore.atom+json
+Authorization: Basic admin:changeit
+
+
+
+
+
+
+###
+# Test EventStore 24.10.0.1384 passed
+####

@@ -1,0 +1,19 @@
+Here are some hints to finding the number of streams. 
+
+Hint #1:
+
+If the instructor has covered the built in projection system, 
+and what each projection does.. start there. 
+
+What projection tracks the presence of streams? 
+
+Hint #2:
+Take a look at the Generate_random_test_data.py script. 
+
+if the solution to this challenge depends on a particular projection being ran, 
+then that code will verify that the projection is running before it appends data. 
+
+You can get the projection name there, and read events from it to create an
+iterator of all streams present, and then increment a counter by iterating through 
+the result.
+

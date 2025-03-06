@@ -1,0 +1,17 @@
+GET http://127.0.0.1:2113/subscriptions/newstream
+
+
+
+
+
+
+
+
+
+#####
+# PASSED Event Store 24.10.0.1384
+# Debug steps, 
+# 404 error will be returned if there are no subscriptions to the stream
+# subscribe_to_stream.http will create a subscription
+# run subscribe_to_stream.http and then retry
+#####

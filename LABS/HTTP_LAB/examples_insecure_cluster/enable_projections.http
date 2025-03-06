@@ -1,0 +1,13 @@
+POST http://127.0.0.1:2113/projection/$by_category/command/disable
+
+accept: application/json
+Content-Length:0 
+
+
+
+
+###
+# PASSED Event Store 24.10.0.1384
+# Note that it will return 200 OK, 
+# even if already enabled
+####

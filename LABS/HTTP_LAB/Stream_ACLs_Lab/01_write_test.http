@@ -1,0 +1,16 @@
+POST https://localhost:2113/streams/teststream
+Content-Type: application/vnd.eventstore.events+json
+Authorization: Basic admin:changeit
+
+
+[
+  {
+    "eventId": "fbf4a1a3-b4a3-3dfe-a01f-ec52c34e19e9",
+    "eventType": "event-type",
+    "data": {
+      "a": "1"
+    }
+  }
+]
+
+

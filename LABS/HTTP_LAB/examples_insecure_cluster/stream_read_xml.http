@@ -1,0 +1,14 @@
+GET http://127.0.0.1:2113/streams/newstream?embed=rich
+Accept:application/atom+xml
+
+
+
+
+
+
+###
+# PASSED Eventstore version 23.10 works
+# debug steps, guarantee stream exists
+# 01_ESDB_event_post.http will add an event
+# PASSED Event Store 24.10.0.1384 
+####

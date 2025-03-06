@@ -1,0 +1,14 @@
+GET https://localhost:4317/
+Authorization: Basic admin:changeit
+
+
+
+
+
+
+###
+# 23.10 returns auth error, not listening on :4317
+# FAILED on Event Store 24.10.0.1384 
+# FAILED after reconfigure docker to use port 4317
+# check to see if this is license required feature
+####

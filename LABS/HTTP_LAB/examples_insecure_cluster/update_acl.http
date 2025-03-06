@@ -1,0 +1,22 @@
+POST http://127.0.0.1:2113/streams/newstream/metadata
+Content-Type: application/vnd.eventstore.events+json
+
+
+
+[
+    {
+        "eventId": "7c314750-05e1-439f-b2eb-f5b0e019be72",
+        "eventType": "$user-updated",
+        "data": {
+            "readRole": "$all",
+            "metaReadRole": "$all"
+        }
+    }
+]
+
+
+###
+# Test 12/12/24
+# Works, see stream browser stream
+# $$newstream for effects
+####

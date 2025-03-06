@@ -1,0 +1,12 @@
+GET https://localhost:2113/health/live?livecode=200
+Authorization: Basic admin:changeit
+
+
+
+
+
+###
+# TEST Event Store 24.10.0.1384 PASSED
+# /health/live returns 204 for working server
+# /health/live"livecode=200 returns 200
+####

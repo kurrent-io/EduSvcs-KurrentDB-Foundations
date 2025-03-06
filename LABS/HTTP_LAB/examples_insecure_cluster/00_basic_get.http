@@ -1,0 +1,41 @@
+GET https://www.google.com HTTP/1.1
+
+####
+# request with GET, and HTTP version
+###
+GET https://www.google.com
+
+###
+# Omit HTTP version
+###
+https://www.google.com
+
+
+###
+# Omit version and GET
+###
+GET https://google.com/?q=EventStore
+
+###
+# Add query string
+###
+
+GET https://google.com/
+    ?q=EventStore
+
+###
+# Query String on following line
+###
+
+
+
+
+########
+# First request includes GET and HTTP version
+# Second Request shows HTTP version is optional
+# Third Request shows GET is default
+# All three requests should return
+# HTTP/1.1 200 OK
+# Followed by content
+# 
+########

@@ -1,0 +1,29 @@
+POST https://localhost:2113/streams/newstream3
+Content-Type: application/vnd.eventstore.events+json
+Authorization: Basic admin:changeit
+
+
+
+[
+    {
+        "eventId": "fbf4b1a1-b4a3-4dfe-a01f-ec52c34e16e4",
+        "eventType": "event-type",
+        "data": {
+            "a": "1"
+        }
+    },
+    {
+        "eventId": "0f9fad5b-d9cb-469f-a165-70867728951e",
+        "eventType": "event-type",
+        "data": {
+            "b": "2"
+        }
+    }
+]
+
+
+
+###
+# Test version 24.10.0.1384 Passed
+# post multiple events
+####
