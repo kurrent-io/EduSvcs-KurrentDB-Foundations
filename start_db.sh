@@ -99,7 +99,8 @@ docker run \
        $db_version \
        --insecure \
        --run-projections=All \
-       --enable-atom-pub-over-http
+       --enable-atom-pub-over-http \
+       --start-standard-projections
 
 if ! docker inspect esdb-node > /dev/null 2>&1; then    # If the EventStoreDB docker container (esdb) is running, exit
        echo "The EventStoreDB docker container is not running. Exiting."
