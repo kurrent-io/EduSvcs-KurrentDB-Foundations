@@ -1,6 +1,10 @@
 #!/bin/bash
 ###########################################################
 #
+# NOTICE: This script differs from our standard in that
+# it starts all system projections
+# if you use the standard then the es-cli lab needs to be modified
+# 
 # Docker management script for Eventstore Training Classes
 # Version 1.0
 # Contributors: Tom Hanlon, Jean-Marc Julien, Stephen Tung
