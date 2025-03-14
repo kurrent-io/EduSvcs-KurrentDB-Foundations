@@ -47,6 +47,7 @@ else:
   
 
 print(f' Our stream position to "catchup" from is {our_stream_position}')
+print('Enter ctrl-C twice in the terminal to stop')
 
 
 
