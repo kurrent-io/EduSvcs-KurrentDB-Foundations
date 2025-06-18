@@ -1,0 +1,136 @@
+POST http://localhost:2113/streams/support-ticket01
+Content-Type: application/vnd.eventstore.events+json
+
+
+
+[
+    {
+	"eventId": "ebf5a1a3-b4a4-3dfe-a01f-ec52c34e19e9",
+	"eventType": "TicketCreate",
+	"data": {
+	    "user": "tom",
+	    "customer_id": "1",
+	    "Issue summary": "When I create a new user I get a \"quota exceeded error\" ",
+	    "time stamp": "1736467966"
+	}
+    },
+    {
+	"eventId": "ea694ea0-367c-4883-a4b4-a679c06a4a1b",
+	"eventType": "TicketAssigned",
+	"data": {
+	    "SupportEngineerName": "Harsh Chouraria"
+	}
+    },
+    {
+	"eventId": "0a46a033-7ad2-43f5-a0d0-758ff303ad69",
+	"eventType": "TicketComment",
+	"data": {
+	    "commenter": "Customer",
+	    "commenterName": "tom",
+            "commentText": "Never Mind I was using the wrong user account"
+	}
+    },
+    {
+	"eventId": "9d811e4e-fb3b-4525-843c-a127b21c7237",
+	"eventType": "TicketClosed",
+	"data": {
+	    "SupportEngineerName": "Harsh Chouraria",
+	    "Summary": "Customer solved issue on their own"
+	}
+    }
+]
+
+
+POST http://localhost:2113/streams/support-ticket02
+Content-Type: application/vnd.eventstore.events+json
+
+
+[
+    {
+	"eventId": "e2fb2e3e-8251-4be9-b13c-f7359783d6df",
+	"eventType": "TicketCreate",
+	"data": {
+	    "user": "Clarence Frey",
+	    "customer_id": "11",
+	    "Issue summary": "Can't Log In ",
+	    "time stamp": "1736467966"
+	}
+    },
+    {
+	"eventId": "c3375f90-57fe-4a44-a800-7d8bad116459",
+	"eventType": "TicketAssigned",
+	"data": {
+	    "SupportEngineerName": "Scotty Lowery"
+	}
+    }
+
+]
+
+
+POST http://localhost:2113/streams/support-ticket03
+Content-Type: application/vnd.eventstore.events+json
+
+
+[
+    {
+	"eventId": "e2fb2e3e-8251-4be9-b13c-f7459793d6df",
+	"eventType": "TicketCreate",
+	"data": {
+	    "user": "Clarence Clemons",
+	    "customer_id": "11",
+	    "Issue summary": "Can't Log In ",
+	    "time stamp": "1736467966"
+	}
+    }
+  
+]
+
+POST http://localhost:2113/streams/support-ticket04
+Content-Type: application/vnd.eventstore.events+json
+
+
+[
+    {
+	"eventId": "e2fb2e3e-8252-4be9-b13c-f7359783d6df",
+	"eventType": "TicketCreate",
+	"data": {
+	    "user": "Clarence Frey",
+	    "customer_id": "11",
+	    "Issue summary": "Can't Log In ",
+	    "time stamp": "1736467966"
+	}
+    },
+    {
+	"eventId": "c3375f90-57fe-4a45-a800-7d8bad116459",
+	"eventType": "TicketAssigned",
+	"data": {
+	    "SupportEngineerName": "Scotty Lowery"
+	}
+    }
+
+]
+
+
+POST http://localhost:2113/streams/support-ticket05
+Content-Type: application/vnd.eventstore.events+json
+
+
+[
+    {
+	"eventId": "e2fb2e3e-8261-4be9-b16c-f7359793d6df",
+	"eventType": "TicketCreate",
+	"data": {
+	    "user": "Ramiro Cole",
+	    "customer_id": "11",
+	    "Issue summary": "Can't Log In ",
+	    "time stamp": "1736467966"
+	}
+    }
+  
+]
+
+
+
+
+
+
